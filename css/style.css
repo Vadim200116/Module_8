@@ -1,0 +1,54 @@
+body{
+    background:rgb(129, 129, 218);
+}
+p,h1,h2,a{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+p,a{
+    font-size: 20px;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+a:hover{
+    color: yellow;
+}
+a:link,:visited{
+    color: white;
+}
+code{
+    background:  rgb(169, 169, 186);
+}
+form{
+    max-width: 350px;
+    margin: 50px auto 0;
+    padding: 20px;
+    background: #56431d;
+    font-family: 'Oswald', sans-serif;
+}
+label{
+    text-align: center;
+    align-items: center;
+}
+input{
+    width: 350px;
+    height: 30px;
+}
+input::placeholder{
+    text-align: center;
+}
+button{
+    margin-left: 125px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background: rgb(75, 142, 72);
+    border: 0px;
+    
+}
